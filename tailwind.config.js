@@ -1,7 +1,7 @@
-const darkmode = require("tailwindcss-dark-mode");
-const forms = require("@tailwindcss/forms");
-const scrollbar = require("tailwind-scrollbar");
-const typography = require("tailwindcss-typography");
+// const darkmode = require("tailwindcss-dark-mode");
+// const forms = require("@tailwindcss/forms");
+// const scrollbar = require("tailwind-scrollbar");
+// const typography = require("tailwindcss-typography");
 
 module.exports = {
 	mode: "jit",
@@ -16,7 +16,7 @@ module.exports = {
 		textColor: ["dark", "dark-hover", "dark-active", "hover", "responsive"],
 		scrollbar: ["dark", "rounded"],
 	},
-	plugins: [darkmode(), forms, scrollbar, typography],
+	// plugins: [darkmode(), forms, scrollbar, typography],
 	purge: {
 		// enable remove unused CSS only in production
 		enabled: process.env.NODE_ENV === "production",

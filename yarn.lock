@@ -3924,10 +3924,10 @@ number-is-nan@^1.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-windicss@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-2.0.1.tgz#23b4da419d34379a6bf5a438e02207fa37d8ccab"
-  integrity sha512-uVlC+gMXXHn+thMMrH0yK2iLh7/8S4wI6S//YNQzw/wlzAzXGG9sPW6IFRWeH0JA4J1bxLSdq/7z46ipVca4sA==
+nuxt-windicss@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-2.0.3.tgz#6218066070f1162a3c0175e710aca0006e6380d2"
+  integrity sha512-xwh1/PPRvuG75gC3SJn1QG+aQaqW978FbYOBucVC1dMzdU0TQvShPdQZY0pCCMbo8LHYZDtHMxlt0T85o1koaw==
   dependencies:
     "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
     defu "^5.0.0"
@@ -4955,19 +4955,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.5.tgz#9e3e8cc0c75a99472b44321033a7702e7738252f"
   integrity sha512-KWcOiKeQj6ZyXx7zq4YxSMgHRlod4czeBQZrPb8OKcohcqAXShm7E20kEMle9WBt26hFcAf0qLOcp5zmY7kOqQ==
 
-sirv@^1.0.12, sirv@^1.0.17:
+sirv@^1.0.12, sirv@^1.0.17, sirv@^1.0.7:
   version "1.0.18"
   resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.18.tgz#105fab52fb656ce8a2bebbf36b11052005952899"
   integrity sha512-f2AOPogZmXgJ9Ma2M22ZEhc1dNtRIzcEkiflMFeVTRq+OViOZMvH1IPMVOwrKaxpSaHioBJiDR0SluRqGa7atA==
-  dependencies:
-    "@polka/url" "^1.0.0-next.20"
-    mime "^2.3.1"
-    totalist "^1.0.0"
-
-sirv@^1.0.7:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.17.tgz#86e2c63c612da5a1dace1c16c46f524aaa26ac45"
-  integrity sha512-qx9go5yraB7ekT7bCMqUHJ5jEaOC/GXBxUWv+jeWnb7WzHUFdcQPGWk7YmAwFBaQBrogpuSqd/azbC2lZRqqmw==
   dependencies:
     "@polka/url" "^1.0.0-next.20"
     mime "^2.3.1"

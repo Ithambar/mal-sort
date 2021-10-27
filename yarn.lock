@@ -329,10 +329,10 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@netlify/functions@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.npmjs.org/@netlify/functions/-/functions-0.7.2.tgz"
-  integrity sha512-xf45ZqQukMxmlkqNMC5BXdFMaVZ8VqF42MV5zA5nKVOh2V0mhYlcbTYlVbS/K2/rtvQ3W8lxxixYl4NT7kq6Bg==
+"@netlify/functions@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-0.8.0.tgz#0c0a3d5a8efdc6aa469f75acb9df556a317cff1f"
+  integrity sha512-Ew4Q2ofSBa5aeVOvrHNNEkfCJNmjTkEIr+WkyveOZrcnKQGH/sTtPqVb6HP51NJHNhczBkd3S3KdXfrCB0q0Ig==
   dependencies:
     is-promise "^4.0.0"
 
@@ -377,7 +377,7 @@
     error-stack-parser "^2.0.0"
     string-width "^4.2.3"
 
-"@nuxt/kit-edge@latest", "@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27254217.c672d89":
+"@nuxt/kit-edge@latest":
   version "3.0.0-27254217.c672d89"
   resolved "https://registry.npmjs.org/@nuxt/kit-edge/-/kit-edge-3.0.0-27254217.c672d89.tgz"
   integrity sha512-GBE4LYTqVDnFKF5GH/B3GUJeXcdwYJtJBZ2x/yTi4gH7zmj8t5XzhDs3uMX7y6nb9o1n1PEV6BHIrJJlLFe55g==
@@ -402,16 +402,41 @@
     unctx "^1.0.2"
     untyped "^0.2.9"
 
-"@nuxt/nitro@npm:@nuxt/nitro-edge@3.0.0-27254217.c672d89":
-  version "3.0.0-27254217.c672d89"
-  resolved "https://registry.npmjs.org/@nuxt/nitro-edge/-/nitro-edge-3.0.0-27254217.c672d89.tgz"
-  integrity sha512-KXED0iT9Gqx4XZONjF148bevwkvId2PRxBPtFAprItujTZHGo35UOJT8blTi4FUeEaBMvUslrNRslPxId+kFVw==
+"@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27255596.0c1860a":
+  version "3.0.0-27255596.0c1860a"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-27255596.0c1860a.tgz#be0911acb31aaee3d9f7742c9278202413902e74"
+  integrity sha512-cwrX15oG9B0jK6hJCAMTATb+azJVmVv96TSpXEK/4CS8x9VWuEKoq/06VpjTHK8q3kNJbrhnxsz1JHjwDcov5A==
+  dependencies:
+    consola "^2.15.3"
+    create-require "^1.1.1"
+    defu "^5.0.0"
+    dotenv "^10.0.0"
+    globby "^11.0.4"
+    hash-sum "^2.0.0"
+    hookable "^5.0.0"
+    jiti "^1.12.9"
+    lodash.template "^4.5.0"
+    mlly "^0.3.1"
+    pathe "^0.2.0"
+    pkg-types "^0.2.3"
+    rc9 "^1.2.0"
+    scule "^0.2.1"
+    semver "^7.3.5"
+    std-env "^2.3.1"
+    ufo "^0.7.9"
+    unctx "^1.0.2"
+    untyped "^0.2.10"
+
+"@nuxt/nitro@npm:@nuxt/nitro-edge@3.0.0-27255596.0c1860a":
+  version "3.0.0-27255596.0c1860a"
+  resolved "https://registry.yarnpkg.com/@nuxt/nitro-edge/-/nitro-edge-3.0.0-27255596.0c1860a.tgz#c73bcd94beef57d7935ce424347ba77a28cee521"
+  integrity sha512-c2g2X7fLPv9mtt9l3bOFmVTZ9LYXhqoKg9TE1ctuK37p9NSBXXqwieWbS41OF2jV8tZwtQOINnEOBCpkk9kCrQ==
   dependencies:
     "@cloudflare/kv-asset-handler" "^0.1.3"
-    "@netlify/functions" "^0.7.2"
+    "@netlify/functions" "^0.8.0"
     "@nuxt/design" "0.1.4"
     "@nuxt/devalue" "^2.0.0"
-    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27254217.c672d89"
+    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27255596.0c1860a"
     "@rollup/plugin-alias" "^3.1.8"
     "@rollup/plugin-commonjs" "^21.0.1"
     "@rollup/plugin-inject" "^4.0.3"
@@ -464,13 +489,13 @@
     vue-bundle-renderer "^0.3.2"
     vue-server-renderer "^2.6.14"
 
-"@nuxt/vite-builder@npm:@nuxt/vite-builder-edge@3.0.0-27254217.c672d89":
-  version "3.0.0-27254217.c672d89"
-  resolved "https://registry.npmjs.org/@nuxt/vite-builder-edge/-/vite-builder-edge-3.0.0-27254217.c672d89.tgz"
-  integrity sha512-vljPVF9oJv9oW2fGHnxbgHAGyxmi+6GWvkoSRiee4o57VlHba62EsvIYseFvBABu0aDRQXp3Jbq+STIZxiGFZg==
+"@nuxt/vite-builder@npm:@nuxt/vite-builder-edge@3.0.0-27255596.0c1860a":
+  version "3.0.0-27255596.0c1860a"
+  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder-edge/-/vite-builder-edge-3.0.0-27255596.0c1860a.tgz#47cf5f91656442f34c7a8910bfb7c447e4d4e0eb"
+  integrity sha512-Y47QXmCtWn0XVONy6XHXkMzcc9IZuRO8jkzX1sCUl/OczIzVqpVL126chp1YmYh3SCFLl/3ibt5DfHUdQ0e62g==
   dependencies:
-    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27254217.c672d89"
-    "@vitejs/plugin-vue" "^1.9.3"
+    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27255596.0c1860a"
+    "@vitejs/plugin-vue" "^1.9.4"
     "@vitejs/plugin-vue-jsx" "^1.2.0"
     autoprefixer "^10.3.7"
     chokidar "^3.5.2"
@@ -487,21 +512,21 @@
     postcss-url "^10.1.3"
     rollup-plugin-visualizer "^5.5.2"
     ufo "^0.7.9"
-    vite "^2.6.11"
+    vite "^2.6.12"
 
-"@nuxt/webpack-builder@npm:@nuxt/webpack-builder-edge@3.0.0-27254217.c672d89":
-  version "3.0.0-27254217.c672d89"
-  resolved "https://registry.npmjs.org/@nuxt/webpack-builder-edge/-/webpack-builder-edge-3.0.0-27254217.c672d89.tgz"
-  integrity sha512-X7UD3+/SSfzgZOMM4T9VD6T/nF7E3fEOmHnzewjguHIERlsxffKTqWCd9d7cba+qeD70gFp6qKzVLWeyY5hTmg==
+"@nuxt/webpack-builder@npm:@nuxt/webpack-builder-edge@3.0.0-27255596.0c1860a":
+  version "3.0.0-27255596.0c1860a"
+  resolved "https://registry.yarnpkg.com/@nuxt/webpack-builder-edge/-/webpack-builder-edge-3.0.0-27255596.0c1860a.tgz#229aede8f338c2a678ba0002c68b0dc8c818a1b4"
+  integrity sha512-eTQZDYsL5XHqW6S8aXsXOiFepJ4tTHY/cdsl9Rh9dOGvry5G8Lj3fLt3GBn2hsG5GfEdnMH2Nxbyd93Nx22AuA==
   dependencies:
     "@babel/core" "^7.15.8"
     "@nuxt/friendly-errors-webpack-plugin" "^2.5.2"
-    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27254217.c672d89"
+    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27255596.0c1860a"
     "@vue/babel-preset-jsx" "^1.2.4"
     autoprefixer "^10.3.7"
     babel-loader "^8.2.3"
     consola "^2.15.3"
-    css-loader "^6.4.0"
+    css-loader "^6.5.0"
     css-minimizer-webpack-plugin "^3.1.1"
     cssnano "^5.0.8"
     esbuild-loader "^2.16.0"
@@ -524,9 +549,9 @@
     time-fix-plugin "^2.0.7"
     ufo "^0.7.9"
     url-loader "^4.1.1"
-    vue-loader "^16.8.1"
+    vue-loader "^16.8.2"
     vue-style-loader "^4.1.3"
-    webpack "^5.59.1"
+    webpack "^5.60.0"
     webpack-bundle-analyzer "^4.5.0"
     webpack-dev-middleware "^5.2.1"
     webpack-hot-middleware "^2.25.1"
@@ -731,10 +756,10 @@
     "@vue/babel-plugin-jsx" "^1.0.7"
     hash-sum "^2.0.0"
 
-"@vitejs/plugin-vue@^1.9.3":
-  version "1.9.3"
-  resolved "https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-1.9.3.tgz"
-  integrity sha512-yW6H/q+4Mc2PcVjSOelcsMrg/k15DnMUz8jyCFsI04emc3aLwo4AoofUfGnjHUkgirrDxSJLVqQVGhonQ3yykA==
+"@vitejs/plugin-vue@^1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.9.4.tgz#4f48485432cbb986a9fb9d254dc33ce30ddccbfa"
+  integrity sha512-0CZqaCoChriPTTtGkERy1LGPcYjGFpi2uYRhBPIkqJqUGV5JnJFhQAgh6oH9j5XZHfrRaisX8W0xSpO4T7S78A==
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
@@ -1885,10 +1910,10 @@ css-declaration-sorter@^6.0.3:
   dependencies:
     timsort "^0.3.0"
 
-css-loader@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.npmjs.org/css-loader/-/css-loader-6.4.0.tgz"
-  integrity sha512-Dlt6qfsxI/w1vU0r8qDd4BtMPxWqJeY5qQU7SmmZfvbpe6Xl18McO4GhyaMLns24Y2VNPiZwJPQ8JSbg4qvQLw==
+css-loader@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-6.5.0.tgz#9d1cf7766a9a8f0b3c6e1638309b964dbdab46d3"
+  integrity sha512-VmuSdQa3K+wJsl39i7X3qGBM5+ZHmtTnv65fqMGI+fzmHoYmszTVvTqC1XN8JwWDViCB1a8wgNim5SV4fb37xg==
   dependencies:
     icss-utils "^5.1.0"
     postcss "^8.2.15"
@@ -4173,10 +4198,10 @@ number-is-nan@^1.0.0:
   resolved "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-"nuxi@npm:nuxi-edge@3.0.0-27254217.c672d89":
-  version "3.0.0-27254217.c672d89"
-  resolved "https://registry.npmjs.org/nuxi-edge/-/nuxi-edge-3.0.0-27254217.c672d89.tgz"
-  integrity sha512-g/hlMtLxvED/2P/vUbldjRaaXaJLs0tq+Op0P5ukuDsMC5T6xHm4ntJO7VP3Vmf/GUvQtOxiDTDn6zM60/+MqA==
+"nuxi@npm:nuxi-edge@3.0.0-27255596.0c1860a":
+  version "3.0.0-27255596.0c1860a"
+  resolved "https://registry.yarnpkg.com/nuxi-edge/-/nuxi-edge-3.0.0-27255596.0c1860a.tgz#5f73db2086978b9ee2f058626699a6b04adc8b8f"
+  integrity sha512-w5QU5bnql5O4GEIExssHtYQS5EFgYxalwuN8FzwcHTJfvxVVE0v9hQo+rhQnG2QeYUgkIePEpjKA9vHqpPFKjQ==
   dependencies:
     semver "^7.3.5"
   optionalDependencies:
@@ -4201,15 +4226,15 @@ nuxt-windicss@^2.0.7:
     windicss-webpack-plugin "^1.5.3"
 
 nuxt3@latest:
-  version "3.0.0-27254217.c672d89"
-  resolved "https://registry.npmjs.org/nuxt3/-/nuxt3-3.0.0-27254217.c672d89.tgz"
-  integrity sha512-DWTKiXtVb7qD0z1ELmafJV6aBcSz3gszxUqRyjTEdE4GLHFz9fHipm58ghlfNNhbjOt9tuU7nJIBzIjapeHF0g==
+  version "3.0.0-27255596.0c1860a"
+  resolved "https://registry.yarnpkg.com/nuxt3/-/nuxt3-3.0.0-27255596.0c1860a.tgz#43a12acafe47164b286a79d36467918f25f7c3ff"
+  integrity sha512-t4r4Rv9sErbrzD24/MjH4Ne4483uR16p1yK5sk1t5UkIQn55MN8VHf16CfHlMgxZF2ifaX6Belqcb3VgGB1VRw==
   dependencies:
     "@nuxt/design" "^0.1.4"
-    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27254217.c672d89"
-    "@nuxt/nitro" "npm:@nuxt/nitro-edge@3.0.0-27254217.c672d89"
-    "@nuxt/vite-builder" "npm:@nuxt/vite-builder-edge@3.0.0-27254217.c672d89"
-    "@nuxt/webpack-builder" "npm:@nuxt/webpack-builder-edge@3.0.0-27254217.c672d89"
+    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27255596.0c1860a"
+    "@nuxt/nitro" "npm:@nuxt/nitro-edge@3.0.0-27255596.0c1860a"
+    "@nuxt/vite-builder" "npm:@nuxt/vite-builder-edge@3.0.0-27255596.0c1860a"
+    "@nuxt/webpack-builder" "npm:@nuxt/webpack-builder-edge@3.0.0-27255596.0c1860a"
     "@vue/reactivity" "^3.2.20"
     "@vue/shared" "^3.2.20"
     "@vueuse/head" "^0.6.0"
@@ -4222,7 +4247,7 @@ nuxt3@latest:
     ignore "^5.1.8"
     mlly "^0.3.1"
     murmurhash-es "^0.1.1"
-    nuxi "npm:nuxi-edge@3.0.0-27254217.c672d89"
+    nuxi "npm:nuxi-edge@3.0.0-27255596.0c1860a"
     ohmyfetch "^0.4.2"
     pathe "^0.2.0"
     scule "^0.2.1"
@@ -4551,6 +4576,14 @@ pkg-types@^0.2.1:
   integrity sha512-RlrGelHSS2yPeLT9NMuMIfpKS7+gRAhuXi+PexBeToKjbRkmu+E+HdgDY2ZKU1RDirk5w9WuViEhOufELtAnug==
   dependencies:
     jsonc-parser "^3.0.0"
+
+pkg-types@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/pkg-types/-/pkg-types-0.2.3.tgz#4355ee06518b278ae6473d1c1eaf35010d6cf798"
+  integrity sha512-c05moyQEGO1z16NjidOZn2wQjuAi8CZKzPXmZBWLnnL3dRqDmeMWx3IxVSuYF7zKHkjQFJ9QH3Pas772a4iXQA==
+  dependencies:
+    jsonc-parser "^3.0.0"
+    pathe "^0.2.0"
 
 postcss-calc@^8.0.0:
   version "8.0.0"
@@ -5823,6 +5856,11 @@ unstorage@^0.3.0:
     ufo "^0.7.9"
     ws "^8.2.1"
 
+untyped@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/untyped/-/untyped-0.2.10.tgz#daee5d2b94ff5040be251077e9ddb91732017ac1"
+  integrity sha512-Ym1bZHJK3rE7n6WYVlIQPOkpCtkWcZbiy0obnmQ0Pn7a82lJVXWgyLhKE1XSyCvmg3HvEQW8kgHAE+r17G4l2Q==
+
 untyped@^0.2.9:
   version "0.2.9"
   resolved "https://registry.npmjs.org/untyped/-/untyped-0.2.9.tgz"
@@ -5896,10 +5934,10 @@ vite-plugin-windicss@^1.4.11:
     debug "^4.3.2"
     windicss "^3.1.9"
 
-vite@^2.6.11:
-  version "2.6.11"
-  resolved "https://registry.npmjs.org/vite/-/vite-2.6.11.tgz"
-  integrity sha512-JWnGmiO1IFwou9aUWS4N0kMyHcgTTt1+2f4bJyzgBJLJDyAqGEX3HewE4jgrL6V4d9+mxs+lZ4L8HL2kyVBe7A==
+vite@^2.6.12:
+  version "2.6.13"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.6.13.tgz#16b3ec85a66d5b461ac29a903874d4357f9af432"
+  integrity sha512-+tGZ1OxozRirTudl4M3N3UTNJOlxdVo/qBl2IlDEy/ZpTFcskp+k5ncNjayR3bRYTCbqSOFz2JWGN1UmuDMScA==
   dependencies:
     esbuild "^0.13.2"
     postcss "^8.3.8"
@@ -5915,9 +5953,9 @@ vue-bundle-renderer@^0.3.2:
   dependencies:
     bundle-runner "^0.0.1"
 
-vue-loader@^16.8.1:
+vue-loader@^16.8.2:
   version "16.8.2"
-  resolved "https://registry.npmjs.org/vue-loader/-/vue-loader-16.8.2.tgz"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.8.2.tgz#78552d6558207a93f09e4fb68b068d44964eb740"
   integrity sha512-Nkq+z9mAsMEK+qkXgK+9Ia7D8w9uu9j4ut0IMT5coMfux3rCgIp1QBB1CYwY0M34A1nRMSONEaWXxAAw6xSl/Q==
   dependencies:
     chalk "^4.1.0"
@@ -6043,9 +6081,9 @@ webpack-virtual-modules@^0.4.3:
   resolved "https://registry.npmjs.org/webpack-virtual-modules/-/webpack-virtual-modules-0.4.3.tgz"
   integrity sha512-5NUqC2JquIL2pBAAo/VfBP6KuGkHIZQXW/lNKupLPfhViwh8wNsu0BObtl09yuKZszeEUfbXz8xhrHvSG16Nqw==
 
-webpack@^5.59.1:
+webpack@^5.60.0:
   version "5.60.0"
-  resolved "https://registry.npmjs.org/webpack/-/webpack-5.60.0.tgz"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.60.0.tgz#9c26f38a57c9688b0a8c5c885e05197344eae67d"
   integrity sha512-OL5GDYi2dKxnwJPSOg2tODgzDxAffN0osgWkZaBo/l3ikCxDFP+tuJT3uF7GyBE3SDBpKML/+a8EobyWAQO3DQ==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
@@ -6223,13 +6261,6 @@ ws@^8.2.1:
   version "8.2.3"
   resolved "https://registry.npmjs.org/ws/-/ws-8.2.3.tgz"
   integrity sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
-
-xml-js@^1.6.11:
-  version "1.6.11"
-  resolved "https://registry.yarnpkg.com/xml-js/-/xml-js-1.6.11.tgz#927d2f6947f7f1c19a316dd8eea3614e8b18f8e9"
-  integrity sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==
-  dependencies:
-    sax "^1.2.4"
 
 xxhashjs@~0.2.2:
   version "0.2.2"

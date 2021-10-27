@@ -378,6 +378,7 @@
     string-width "^4.2.3"
 
 "@nuxt/kit-edge@latest", "@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27254217.c672d89":
+  name "@nuxt/kit"
   version "3.0.0-27254217.c672d89"
   resolved "https://registry.npmjs.org/@nuxt/kit-edge/-/kit-edge-3.0.0-27254217.c672d89.tgz"
   integrity sha512-GBE4LYTqVDnFKF5GH/B3GUJeXcdwYJtJBZ2x/yTi4gH7zmj8t5XzhDs3uMX7y6nb9o1n1PEV6BHIrJJlLFe55g==
@@ -4182,10 +4183,10 @@ number-is-nan@^1.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-windicss@^2.0.7:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-2.0.7.tgz#fc5e9e34a4374171ecd287cc12ce7d0876ac0c18"
-  integrity sha512-fVEt4YfYLoAZg5vfuyeWUDsP0g5AqLIIh57NLjliVBD7GX03Jze7Odmb/4FmSclrxCq0jQ41BQNLy1TT3GDLWw==
+nuxt-windicss@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-2.0.8.tgz#608a8ebe39cef54d3b2f220e6551ce1d0f0d3245"
+  integrity sha512-lgrjx4Ksb+4bRDtq+LhhEaae87RLKoOodW83FGtQkahVSl0oILqHinkBWpNPANHKTQomC5Mxsp25AX55Epg4hw==
   dependencies:
     "@nuxt/kit-edge" latest
     defu "^5.0.0"
@@ -6223,13 +6224,6 @@ ws@^8.2.1:
   version "8.2.3"
   resolved "https://registry.npmjs.org/ws/-/ws-8.2.3.tgz"
   integrity sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
-
-xml-js@^1.6.11:
-  version "1.6.11"
-  resolved "https://registry.yarnpkg.com/xml-js/-/xml-js-1.6.11.tgz#927d2f6947f7f1c19a316dd8eea3614e8b18f8e9"
-  integrity sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==
-  dependencies:
-    sax "^1.2.4"
 
 xxhashjs@~0.2.2:
   version "0.2.2"

@@ -1,11 +1,8 @@
 {
 	"extends": "./.nuxt/tsconfig.json",
 	"compilerOptions": {
-		"target": "es2020",
 		"noImplicitReturns": true,
 		"noImplicitThis": true,
-		"module": "esnext",
-		"moduleResolution": "node",
 		"lib": [
 			"esnext",
 			"esnext.asynciterable",
@@ -24,20 +21,20 @@
 		"strict": true,
 		"noEmit": true,
 		"baseUrl": ".",
-		"paths": {
-			"~/*": [
-				"./*"
-			],
-			"@/*": [
-				"./*"
-			],
-			"~~/*": [
-				"./*"
-			],
-			"@@/*": [
-				"./*"
-			]
-		},
+		// "paths": {
+		// 	"~/*": [
+		// 		"./*"
+		// 	],
+		// 	"@/*": [
+		// 		"./*"
+		// 	],
+		// 	"~~/*": [
+		// 		"./*"
+		// 	],
+		// 	"@@/*": [
+		// 		"./*"
+		// 	]
+		// },
 		// "types": ["@types/node", "@nuxt/types", "@nuxtjs/color-mode", "@nuxtjs/axios"]
 		"types": [
 			"nuxt-windicss"
@@ -48,5 +45,5 @@
 		".nuxt",
 		".output",
 		"backup"
-	]
+	],
 }

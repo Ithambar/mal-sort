@@ -10,8 +10,7 @@ module.exports = {
 	rules: {
 		"no-console": "off",
 		"no-debug": "off",
-		"vue/comment-directive": "off",
-		"indent": "error"
+		"vue/comment-directive": "off"
 	},
 	ignorePatterns: [".nuxt/"],
 };

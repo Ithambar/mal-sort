@@ -9,7 +9,7 @@ module.exports = {
 		extend: {},
 		darkSelector: ".dark",
 	},
-	darkMode: "class",
+	darkMode: "media",
 	variants: {
 		backgroundColor: ["dark", "dark-hover", "dark-group-hover", "dark-even", "dark-odd", "hover", "responsive"],
 		borderColor: ["dark", "dark-focus", "dark-focus-within", "hover", "responsive"],

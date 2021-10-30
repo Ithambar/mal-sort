@@ -1,21 +1,26 @@
 <template>
-	<div class="flex gap-4 m-4">
-		<label class="rounded px-4 py-1 border-black border cursor-pointer hover:bg-gray-300">
+	<div class="flex gap-4 mx-4 py-4">
+		<label
+			class="rounded px-4 py-1 border-black border cursor-pointer hover:bg-gray-300 dark:bg-gray-500"
+		>
 			<input class="hidden" type="file" accept=".xml" @change="handleList" />
 			<span class>Load List</span>
 		</label>
 		<button
-			class="bg-green-300 rounded px-4 py-1 border-black border hover:bg-green-500"
+			class="bg-green-500 rounded px-4 py-1 border-black border hover:bg-green-300"
 			@click="login"
 		>Login</button>
 	</div>
-	<div class="flex mx-4" v-for="(show, i) in shows" :key="i">{{ show.seriesTitle }}</div>
+	<div
+		class="flex mx-4 dark:text-light-200"
+		v-for="(show, i) in shows"
+		:key="i"
+	>{{ show.series_title }}</div>
 </template>
 
 <script lang="ts">
 import { Anime, List } from "~/models/interfaces/List";
 import { parse } from "fast-xml-parser"
-import camelcase from "camelcase"
 
 export default defineNuxtComponent({
 	async setup(props, context) {
@@ -39,8 +44,10 @@ export default defineNuxtComponent({
 			const files = (event.target as HTMLInputElement).files;
 			if (files) {
 				const file = files[0];
-				const json = parse(camelcase(await file.text())) as List;
-				shows.value = json.myanimelist.anime.filter((show) => show.myStatus === "completed");
+				const json = parse(await file.text()) as List;
+				console.log(json);
+
+				shows.value = json.myanimelist.anime.filter((show) => show.my_status === "Completed");
 			}
 		}
 		return {

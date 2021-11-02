@@ -377,7 +377,32 @@
     error-stack-parser "^2.0.0"
     string-width "^4.2.3"
 
-"@nuxt/kit-edge@latest", "@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27254217.c672d89":
+"@nuxt/kit-edge@3.0.0-27258467.4e424d0":
+  version "3.0.0-27258467.4e424d0"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-27258467.4e424d0.tgz#0598d70025ef7f3befe1c465e0417b2424d53684"
+  integrity sha512-oL8ObcXc0GBgvHCIEEzx6+2dgwlyBPCLkwYhZjRImZAt3tvD/RJCJih32QgmSddsO3eBW2OqxyMjdqmJwRmgXg==
+  dependencies:
+    consola "^2.15.3"
+    create-require "^1.1.1"
+    defu "^5.0.0"
+    dotenv "^10.0.0"
+    globby "^11.0.4"
+    hash-sum "^2.0.0"
+    hookable "^5.0.0"
+    jiti "^1.12.9"
+    lodash.template "^4.5.0"
+    mlly "^0.3.9"
+    pathe "^0.2.0"
+    pkg-types "^0.3.1"
+    rc9 "^1.2.0"
+    scule "^0.2.1"
+    semver "^7.3.5"
+    std-env "^2.3.1"
+    ufo "^0.7.9"
+    unctx "^1.0.2"
+    untyped "^0.2.10"
+
+"@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27254217.c672d89":
   version "3.0.0-27254217.c672d89"
   resolved "https://registry.npmjs.org/@nuxt/kit-edge/-/kit-edge-3.0.0-27254217.c672d89.tgz"
   integrity sha512-GBE4LYTqVDnFKF5GH/B3GUJeXcdwYJtJBZ2x/yTi4gH7zmj8t5XzhDs3uMX7y6nb9o1n1PEV6BHIrJJlLFe55g==
@@ -3966,12 +3991,7 @@ mkdirp@^1.0.3:
   resolved "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-mlly@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.npmjs.org/mlly/-/mlly-0.3.1.tgz"
-  integrity sha512-dtEsZue7NJy5Hhk6dsMoBjmJoZIZwyWvdN+X61cEtqjDFVRUskhWDBmn5EofDUWOkPrwur6GgpCRkXOAB4ISVw==
-
-mlly@^0.3.8:
+mlly@^0.3.1, mlly@^0.3.10, mlly@^0.3.6, mlly@^0.3.9:
   version "0.3.10"
   resolved "https://registry.yarnpkg.com/mlly/-/mlly-0.3.10.tgz#cf3353565c84e951311c46c8d2c8b320d90f9eb3"
   integrity sha512-vD3A7naDtIOqHYZhnYUrECRO6UODWNqz6T0TS/pxwolzVoWKX/mXJF1XSM3qxruCDtkzJbzJPgesByihY/r3EA==
@@ -4187,16 +4207,16 @@ number-is-nan@^1.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-windicss@^2.0.9:
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-2.0.9.tgz#15ab0463844190d245b54ce3f26ff03d6e86f01b"
-  integrity sha512-Kf7LlQz8fFQhZ+N2PU6caQEJLtt5QdsgOdiGb/uGpDBQJk0f+HwHYpFFfVOSwd6Sso9L5mlfjIPhe1AOtjYEeA==
+nuxt-windicss@^2.0.10:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-2.0.10.tgz#8767685631e6b0766ca6cb4390e8970db06acb96"
+  integrity sha512-dw+GIPGQxtrWusrxwjoVpm4voBjZVnSu9OmPYHZ3s81cqKHOrnPxDgC5zYNFNYbJGW8gETKeZi6K09QiG4DnVw==
   dependencies:
-    "@nuxt/kit-edge" latest
+    "@nuxt/kit-edge" "3.0.0-27258467.4e424d0"
     defu "^5.0.0"
     h3 "^0.3.1"
     listhen "^0.2.4"
-    mlly "^0.3.8"
+    mlly "^0.3.10"
     pathe "^0.2.0"
     read-cache "^1.0.0"
     sirv "^1.0.17"
@@ -4557,6 +4577,15 @@ pkg-types@^0.2.1:
   dependencies:
     jsonc-parser "^3.0.0"
 
+pkg-types@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/pkg-types/-/pkg-types-0.3.1.tgz#d7a8b69efb8777a05afc5aabfc259a29a5d6d159"
+  integrity sha512-BjECNgz/tsyqg0/T4Z/U7WbFQXUT24nfkxPbALcrk/uHVeZf9MrGG4tfvYtu+jsrHCFMseLQ6woQddDEBATw3A==
+  dependencies:
+    jsonc-parser "^3.0.0"
+    mlly "^0.3.6"
+    pathe "^0.2.0"
+
 postcss-calc@^8.0.0:
   version "8.0.0"
   resolved "https://registry.npmjs.org/postcss-calc/-/postcss-calc-8.0.0.tgz"
@@ -4841,18 +4870,9 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.0.2, postcss-value-parser@^
   resolved "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz"
   integrity sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==
 
-postcss@^8.1.10, postcss@^8.2.15, postcss@^8.3.5, postcss@^8.3.8:
+postcss@^8.1.10, postcss@^8.2.15, postcss@^8.3.11, postcss@^8.3.5, postcss@^8.3.8:
   version "8.3.11"
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.3.11.tgz"
-  integrity sha512-hCmlUAIlUiav8Xdqw3Io4LcpA1DOt7h3LSTAC4G6JGHFFaWzI6qvFt9oilvl8BmkbBRX1IhM90ZAmpk68zccQA==
-  dependencies:
-    nanoid "^3.1.30"
-    picocolors "^1.0.0"
-    source-map-js "^0.6.2"
-
-postcss@^8.3.11:
-  version "8.3.11"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.11.tgz#c3beca7ea811cd5e1c4a3ec6d2e7599ef1f8f858"
   integrity sha512-hCmlUAIlUiav8Xdqw3Io4LcpA1DOt7h3LSTAC4G6JGHFFaWzI6qvFt9oilvl8BmkbBRX1IhM90ZAmpk68zccQA==
   dependencies:
     nanoid "^3.1.30"
@@ -5837,6 +5857,11 @@ unstorage@^0.3.0:
     ufo "^0.7.9"
     ws "^8.2.1"
 
+untyped@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/untyped/-/untyped-0.2.10.tgz#daee5d2b94ff5040be251077e9ddb91732017ac1"
+  integrity sha512-Ym1bZHJK3rE7n6WYVlIQPOkpCtkWcZbiy0obnmQ0Pn7a82lJVXWgyLhKE1XSyCvmg3HvEQW8kgHAE+r17G4l2Q==
+
 untyped@^0.2.9:
   version "0.2.9"
   resolved "https://registry.npmjs.org/untyped/-/untyped-0.2.9.tgz"
@@ -6197,12 +6222,7 @@ windicss-webpack-plugin@^1.5.5:
     webpack-virtual-modules "^0.4.3"
     windicss "^3.2.0"
 
-windicss@^3.1.9:
-  version "3.1.9"
-  resolved "https://registry.npmjs.org/windicss/-/windicss-3.1.9.tgz"
-  integrity sha512-5YoKvXeCQXIdwc91BoOgpKbIImr2JS8I14rPMa/5dKDDPA4ot3NgICWKELkml39R/8rn4Q0BVUUTqN+w+hjDSA==
-
-windicss@^3.2.0:
+windicss@^3.1.9, windicss@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.2.0.tgz#d779cface09afafa4c31e41f9c229db3d66b5807"
   integrity sha512-z0q789VZXKdRBrAsfkR+1vOYCb7bS1kec1hyaulT4NClNgO9zGObWbiN+9Jwk0Iw7CLdk/QCB/WCF+zVmr0WpQ==

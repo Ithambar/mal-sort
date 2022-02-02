@@ -9,7 +9,7 @@
 		"eslint": "^8.1.0",
 		"vite": "^2.6.13",
 		"postcss": "^8.3.11",
-		"nuxt-windicss": "^2.0.9",
+		"nuxt-windicss": "^2.2.4",
 		"nuxt3": "latest",
 		"prettier": "^2.4.1"
 	},
